@@ -1,32 +1,31 @@
 .rock {
   background: url("../img/Rock-Paper-Scissors-01.png") no-repeat center;
-  height: 335px;
-  background-size: contain;
 }
 
 .paper {
   background: url("../img/Rock-Paper-Scissors-02.png") no-repeat center;
-  height: 335px;
-  background-size: contain;
 }
 
 .scissors {
   background: url("../img/Rock-Paper-Scissors-03.png") no-repeat center;
-  height: 335px;
-  background-size: contain;
 }
 
 .undecided {
   background: url("../img/Rock-Paper-Scissors-04-04.png") no-repeat center;
-  height: 335px;
+}
+
+/* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size/22211990#22211990 */
+.rock, .paper, .scissors, .undecided {
   background-size: contain;
+  width: 100%;
+  height: 0;
+  padding-top: 66.64%;
+  margin: 5% 0;
 }
 
 .choice {
-  position: relative;
   display: block;
-  margin-bottom: .75rem;
-  background-color: #fff;
+  background-color: #f2f7f2;
   border: 1px solid #e5e5e5;
   border-radius: .5em;
 }
