@@ -1,0 +1,32 @@
+.rock {
+  background: url("../img/Rock-Paper-Scissors-01.png") no-repeat center;
+  height: 335px;
+  background-size: contain;
+}
+
+.paper {
+  background: url("../img/Rock-Paper-Scissors-02.png") no-repeat center;
+  height: 335px;
+  background-size: contain;
+}
+
+.scissors {
+  background: url("../img/Rock-Paper-Scissors-03.png") no-repeat center;
+  height: 335px;
+  background-size: contain;
+}
+
+.undecided {
+  background: url("../img/Rock-Paper-Scissors-04-04.png") no-repeat center;
+  height: 335px;
+  background-size: contain;
+}
+
+.choice {
+  position: relative;
+  display: block;
+  margin-bottom: .75rem;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: .5em;
+}
